@@ -66,6 +66,7 @@ desktop.ini
 # Data and experiment artifacts (common for ML/GAN projects)
 data/
 datasets/
+celeba-dataset/
 .cache/
 cache/
 checkpoints/
