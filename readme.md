@@ -1,4 +1,4 @@
-# 🎭 Human Faces GAN - Deep Convolutional GAN (DCGAN)
+# Human Faces GAN - Deep Convolutional GAN (DCGAN)
 
 Generate realistic human faces using Deep Convolutional Generative Adversarial Networks trained on the CelebA dataset.  
 This project is implemented in **PyTorch** and demonstrates state-of-the-art face synthesis using deep learning.
@@ -10,7 +10,7 @@ This project is implemented in **PyTorch** and demonstrates state-of-the-art fac
 
 ---
 
-## 🌟 Features
+## Features
 
 - ✅ **AI Face Generation** – Create realistic human faces from random noise vectors
 - ✅ **Smart Checkpointing** – Auto-saves progress every 5 minutes
@@ -23,7 +23,7 @@ This project is implemented in **PyTorch** and demonstrates state-of-the-art fac
 
 ---
 
-## 🖼️ Sample Results
+## Sample Results
 
 <table>
   <tr>
@@ -44,7 +44,7 @@ This project is implemented in **PyTorch** and demonstrates state-of-the-art fac
 
 ---
 
-## 📋 Requirements
+## Requirements
 
 ### Hardware
 - **GPU**: NVIDIA GTX 1650 or better (4GB+ VRAM)
@@ -58,7 +58,7 @@ This project is implemented in **PyTorch** and demonstrates state-of-the-art fac
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone the Repository
 ```bash
