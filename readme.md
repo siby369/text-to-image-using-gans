@@ -160,20 +160,20 @@ Outputs saved to: `generated_faces/generated_output.png`
 
 ```
 human-faces-gan/
-├── train_gan.py              # Main training script
-├── README.md                 # This file
-├── requirements.txt          # Python dependencies
-├── LICENSE                   # MIT License
-├── .gitignore               # Git ignore rules
+├── train_gan.py                 # Main training script
+├── README.md                    # This file
+├── requirements.txt             # Python dependencies
+├── LICENSE                      # MIT License
+├── .gitignore                   # Git ignore rules
 │
-├── celeba-dataset/          # Dataset directory
-│   └── img_align_celeba/    # CelebA images (202,599 files)
+├── celeba-dataset/              # Dataset directory
+│   └── img_align_celeba/        # CelebA images (202,599 files)
 │
-├── checkpoints/             # Model checkpoints
+├── checkpoints/                 # Model checkpoints
 │   ├── checkpoint_latest.pth    # Most recent checkpoint
 │   └── training.lock            # Training lock file
 │
-└── generated_faces/         # Generated samples
+└── generated_faces/             # Generated samples
     ├── epoch_0001.png           # Training progress samples
     ├── training_progress.png    # Loss/score graphs
     └── generated_output.png     # Final generation
