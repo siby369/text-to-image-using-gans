@@ -149,9 +149,9 @@ Outputs saved to: `generated_faces/generated_output.png`
 
 **Example output:**
 ```
-<img src="https://img.icons8.com/color/20/000000/clock.png" width="16" height="16">  15.3min | Epoch 45 | L_g: 2.456 | L_d: 0.823 | R: 0.754 | F: 0.234
-<img src="https://img.icons8.com/color/20/000000/save.png" width="16" height="16"> Checkpoint saved: checkpoints/checkpoint_latest.pth
-<img src="https://img.icons8.com/color/20/000000/image.png" width="16" height="16">  Saved samples: generated_faces/epoch_0045.png
+⏱️  15.3min | Epoch 45 | L_g: 2.456 | L_d: 0.823 | R: 0.754 | F: 0.234
+💾 Checkpoint saved: checkpoints/checkpoint_latest.pth
+🖼️  Saved samples: generated_faces/epoch_0045.png
 ```
 
 ---
