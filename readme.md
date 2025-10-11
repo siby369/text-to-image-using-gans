@@ -1,4 +1,4 @@
-# 🎭 Human Faces GAN - Deep Convolutional GAN (DCGAN)
+# ![GAN](https://img.shields.io/badge/GAN-Deep%20Convolutional%20GAN-blue) Human Faces GAN - Deep Convolutional GAN (DCGAN)
 
 Generate realistic human faces using Deep Convolutional Generative Adversarial Networks trained on the CelebA dataset.  
 This project is implemented in **PyTorch** and demonstrates state-of-the-art face synthesis using deep learning.
@@ -10,7 +10,7 @@ This project is implemented in **PyTorch** and demonstrates state-of-the-art fac
 
 ---
 
-## 🌟 Features
+## ![Features](https://img.shields.io/badge/Features-Core%20Capabilities-orange) Features
 
 - ✅ **AI Face Generation** – Create realistic human faces from random noise vectors
 - ✅ **Smart Checkpointing** – Auto-saves progress every 5 minutes
@@ -23,7 +23,7 @@ This project is implemented in **PyTorch** and demonstrates state-of-the-art fac
 
 ---
 
-## 🖼️ Sample Results
+## ![Results](https://img.shields.io/badge/Results-Sample%20Outputs-green) Sample Results
 
 <table>
   <tr>
@@ -44,7 +44,7 @@ This project is implemented in **PyTorch** and demonstrates state-of-the-art fac
 
 ---
 
-## 📋 Requirements
+## ![Requirements](https://img.shields.io/badge/Requirements-Hardware%20%26%20Software-red) Requirements
 
 ### Hardware
 - **GPU**: NVIDIA GTX 1650 or better (4GB+ VRAM)
@@ -58,7 +58,7 @@ This project is implemented in **PyTorch** and demonstrates state-of-the-art fac
 
 ---
 
-## 🚀 Quick Start
+## ![Quick Start](https://img.shields.io/badge/Quick%20Start-Get%20Started-brightgreen) Quick Start
 
 ### 1. Clone the Repository
 ```bash
@@ -126,7 +126,7 @@ Outputs saved to: `generated_faces/generated_output.png`
 
 ---
 
-## 📊 Training Guide
+## ![Training Guide](https://img.shields.io/badge/Training%20Guide-Performance%20Metrics-blue) Training Guide
 
 ### Training Duration
 
@@ -156,7 +156,7 @@ Outputs saved to: `generated_faces/generated_output.png`
 
 ---
 
-## 📁 Project Structure
+## ![Project Structure](https://img.shields.io/badge/Project%20Structure-File%20Organization-purple) Project Structure
 
 ```
 human-faces-gan/
@@ -181,7 +181,7 @@ human-faces-gan/
 
 ---
 
-## ⚙️ Configuration
+## ![Configuration](https://img.shields.io/badge/Configuration-Settings-orange) Configuration
 
 Edit the `Config` class inside `train_gan.py`:
 
@@ -215,7 +215,7 @@ IMAGE_SIZE = 128  # Higher resolution
 
 ---
 
-## 🐛 Troubleshooting
+## ![Troubleshooting](https://img.shields.io/badge/Troubleshooting-Common%20Issues-red) Troubleshooting
 
 ### CUDA Out of Memory
 ```python
@@ -249,7 +249,7 @@ ls celeba-dataset/img_align_celeba   # Linux
 
 ---
 
-## 📊 Model Architecture
+## ![Model Architecture](https://img.shields.io/badge/Model%20Architecture-Neural%20Networks-blue) Model Architecture
 
 ### Generator (128D Vector → 64x64 Image)
 ```
@@ -277,7 +277,7 @@ Output: Probability (0-1)
 
 ---
 
-## 📚 Resources
+## ![Resources](https://img.shields.io/badge/Resources-Links%20%26%20References-green) Resources
 
 - [Original GAN Paper (Goodfellow et al., 2014)](https://arxiv.org/abs/1406.2661)
 - [DCGAN Paper (Radford et al., 2015)](https://arxiv.org/abs/1511.06434)
@@ -286,7 +286,7 @@ Output: Probability (0-1)
 
 ---
 
-## 🤝 Contributing
+## ![Contributing](https://img.shields.io/badge/Contributing-Open%20Source-purple) Contributing
 
 Contributions are welcome!
 
@@ -298,7 +298,7 @@ Contributions are welcome!
 
 ---
 
-## 📝 License
+## ![License](https://img.shields.io/badge/License-MIT%20License-green) License
 
 This project is licensed under the MIT License – see the LICENSE file for details.
 
@@ -310,7 +310,7 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 
 ---
 
-## 🙏 Acknowledgments
+## ![Acknowledgments](https://img.shields.io/badge/Acknowledgments-Credits%20%26%20Thanks-blue) Acknowledgments
 
 - **Dataset**: CelebA Dataset by MMLAB, CUHK
 - **Architecture**: DCGAN Paper - Radford et al., 2015
@@ -319,7 +319,7 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 
 ---
 
-## 📧 Contact
+## ![Contact](https://img.shields.io/badge/Contact-Author%20Info-orange) Contact
 
 - **Author**: Siby
 - **GitHub**: [@siby369](https://github.com/siby369)
@@ -327,7 +327,7 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 
 ---
 
-## 📸 Training Evolution
+## ![Training Evolution](https://img.shields.io/badge/Training%20Evolution-Progress%20Visualization-purple) Training Evolution
 
 | ![Epoch 1](generated_faces/epoch_0001.png) | ![Epoch 50](generated_faces/epoch_0050.png) | ![Epoch 100](generated_faces/epoch_0100.png) | ![Epoch 200](generated_faces/epoch_0200.png) |
 |:---:|:---:|:---:|:---:|
@@ -338,7 +338,7 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 
 ---
 
-## ❓ FAQ
+## ![FAQ](https://img.shields.io/badge/FAQ-Frequently%20Asked%20Questions-red) FAQ
 
 ### How long does training take?
 - **Minimum viable**: 1-2 hours (50-100 epochs)
