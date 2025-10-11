@@ -305,7 +305,7 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 **What this means:**
 - <img src="https://img.icons8.com/color/20/000000/checkmark.png" width="16" height="16"> Commercial use allowed
 - <img src="https://img.icons8.com/color/20/000000/checkmark.png" width="16" height="16"> Modification allowed
-- <img src="https://img.icons8/color/20/000000/checkmark.png" width="16" height="16"> Distribution allowed
+- <img src="https://img.icons8.com/color/20/000000/checkmark.png" width="16" height="16"> Distribution allowed
 - <img src="https://img.icons8.com/color/20/000000/checkmark.png" width="16" height="16"> Private use allowed
 
 ---
