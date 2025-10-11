@@ -1,32 +1,36 @@
-# Human Faces GAN - Deep Convolutional GAN (DCGAN)
+# <img src="https://img.icons8.com/color/48/000000/theatre-mask.png" width="32" height="32"> Human Faces GAN - Deep Convolutional GAN (DCGAN)
 
 Generate realistic human faces using Deep Convolutional Generative Adversarial Networks trained on the CelebA dataset.  
 This project is implemented in **PyTorch** and demonstrates state-of-the-art face synthesis using deep learning.
 
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![CUDA](https://img.shields.io/badge/CUDA-11.8+-green.svg)
 
 ---
 
-## Features
+## <img src="https://img.icons8.com/color/48/000000/star.png" width="24" height="24"> Features
 
-- **AI Face Generation** – Create realistic human faces from random noise vectors
-- **Smart Checkpointing** – Auto-saves progress every 5 minutes
-- **Resume Training** – Continue from where you left off
-- **Multi-Session Training** – Train in multiple short sessions
-- **Training Lock** – Prevents multiple sessions from corrupting data
-- **Real-time Monitoring** – Track losses and scores during training
-- **GPU Optimized** – Efficient training on NVIDIA GPUs
-- **Interactive Menu** – Easy-to-use command-line interface
+- <img src="https://img.icons8.com/color/20/000000/checkmark.png" width="16" height="16"> **AI Face Generation** – Create realistic human faces from random noise vectors
+- <img src="https://img.icons8.com/color/20/000000/checkmark.png" width="16" height="16"> **Smart Checkpointing** – Auto-saves progress every 5 minutes
+- <img src="https://img.icons8.com/color/20/000000/checkmark.png" width="16" height="16"> **Resume Training** – Continue from where you left off
+- <img src="https://img.icons8.com/color/20/000000/checkmark.png" width="16" height="16"> **Multi-Session Training** – Train in multiple short sessions
+- <img src="https://img.icons8.com/color/20/000000/checkmark.png" width="16" height="16"> **Training Lock** – Prevents multiple sessions from corrupting data
+- <img src="https://img.icons8.com/color/20/000000/checkmark.png" width="16" height="16"> **Real-time Monitoring** – Track losses and scores during training
+- <img src="https://img.icons8.com/color/20/000000/checkmark.png" width="16" height="16"> **GPU Optimized** – Efficient training on NVIDIA GPUs
+- <img src="https://img.icons8.com/color/20/000000/checkmark.png" width="16" height="16"> **Interactive Menu** – Easy-to-use command-line interface
 
 ---
 
-## Sample Results
+## <img src="https://img.icons8.com/color/48/000000/image.png" width="24" height="24"> Sample Results
 
 <table>
   <tr>
     <td><img src="generated_faces/epoch_0001.png" width="200"/></td>
     <td><img src="generated_faces/epoch_0050.png" width="200"/></td>
-    soon
-    soon
+    <td><img src="generated_faces/epoch_0100.png" width="200"/></td>
+    <td><img src="generated_faces/epoch_0200.png" width="200"/></td>
   </tr>
   <tr>
     <td align="center">Epoch 1</td>
@@ -40,7 +44,7 @@ This project is implemented in **PyTorch** and demonstrates state-of-the-art fac
 
 ---
 
-## Requirements
+## <img src="https://img.icons8.com/color/48/000000/task-completed.png" width="24" height="24"> Requirements
 
 ### Hardware
 - **GPU**: NVIDIA GTX 1650 or better (4GB+ VRAM)
@@ -54,7 +58,7 @@ This project is implemented in **PyTorch** and demonstrates state-of-the-art fac
 
 ---
 
-## Quick Start
+## <img src="https://img.icons8.com/color/48/000000/rocket.png" width="24" height="24"> Quick Start
 
 ### 1. Clone the Repository
 ```bash
@@ -122,7 +126,7 @@ Outputs saved to: `generated_faces/generated_output.png`
 
 ---
 
-## Training Guide
+## <img src="https://img.icons8.com/color/48/000000/analytics.png" width="24" height="24"> Training Guide
 
 ### Training Duration
 
@@ -145,14 +149,14 @@ Outputs saved to: `generated_faces/generated_output.png`
 
 **Example output:**
 ```
-⏱️  15.3min | Epoch 45 | L_g: 2.456 | L_d: 0.823 | R: 0.754 | F: 0.234
-💾 Checkpoint saved: checkpoints/checkpoint_latest.pth
-🖼️  Saved samples: generated_faces/epoch_0045.png
+<img src="https://img.icons8.com/color/20/000000/clock.png" width="16" height="16">  15.3min | Epoch 45 | L_g: 2.456 | L_d: 0.823 | R: 0.754 | F: 0.234
+<img src="https://img.icons8.com/color/20/000000/save.png" width="16" height="16"> Checkpoint saved: checkpoints/checkpoint_latest.pth
+<img src="https://img.icons8.com/color/20/000000/image.png" width="16" height="16">  Saved samples: generated_faces/epoch_0045.png
 ```
 
 ---
 
-## Project Structure
+## <img src="https://img.icons8.com/color/48/000000/folder.png" width="24" height="24"> Project Structure
 
 ```
 human-faces-gan/
@@ -177,7 +181,7 @@ human-faces-gan/
 
 ---
 
-## Configuration
+## <img src="https://img.icons8.com/color/48/000000/settings.png" width="24" height="24"> Configuration
 
 Edit the `Config` class inside `train_gan.py`:
 
@@ -211,7 +215,7 @@ IMAGE_SIZE = 128  # Higher resolution
 
 ---
 
-## Troubleshooting
+## <img src="https://img.icons8.com/color/48/000000/bug.png" width="24" height="24"> Troubleshooting
 
 ### CUDA Out of Memory
 ```python
@@ -245,7 +249,7 @@ ls celeba-dataset/img_align_celeba   # Linux
 
 ---
 
-## Model Architecture
+## <img src="https://img.icons8.com/color/48/000000/network.png" width="24" height="24"> Model Architecture
 
 ### Generator (128D Vector → 64x64 Image)
 ```
@@ -273,7 +277,7 @@ Output: Probability (0-1)
 
 ---
 
-## Resources
+## <img src="https://img.icons8.com/color/48/000000/book.png" width="24" height="24"> Resources
 
 - [Original GAN Paper (Goodfellow et al., 2014)](https://arxiv.org/abs/1406.2661)
 - [DCGAN Paper (Radford et al., 2015)](https://arxiv.org/abs/1511.06434)
@@ -282,7 +286,7 @@ Output: Probability (0-1)
 
 ---
 
-## Contributing
+## <img src="https://img.icons8.com/color/48/000000/handshake.png" width="24" height="24"> Contributing
 
 Contributions are welcome!
 
@@ -294,19 +298,19 @@ Contributions are welcome!
 
 ---
 
-## License
+## <img src="https://img.icons8.com/color/48/000000/license.png" width="24" height="24"> License
 
 This project is licensed under the MIT License – see the LICENSE file for details.
 
 **What this means:**
-- Commercial use allowed
-- Modification allowed
-- Distribution allowed
-- Private use allowed
+- <img src="https://img.icons8.com/color/20/000000/checkmark.png" width="16" height="16"> Commercial use allowed
+- <img src="https://img.icons8.com/color/20/000000/checkmark.png" width="16" height="16"> Modification allowed
+- <img src="https://img.icons8/color/20/000000/checkmark.png" width="16" height="16"> Distribution allowed
+- <img src="https://img.icons8.com/color/20/000000/checkmark.png" width="16" height="16"> Private use allowed
 
 ---
 
-## Acknowledgments
+## <img src="https://img.icons8.com/color/48/000000/thanks.png" width="24" height="24"> Acknowledgments
 
 - **Dataset**: CelebA Dataset by MMLAB, CUHK
 - **Architecture**: DCGAN Paper - Radford et al., 2015
@@ -315,7 +319,7 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 
 ---
 
-## Contact
+## <img src="https://img.icons8.com/color/48/000000/email.png" width="24" height="24"> Contact
 
 - **Author**: Siby
 - **GitHub**: [@siby369](https://github.com/siby369)
@@ -323,7 +327,7 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 
 ---
 
-## Training Evolution
+## <img src="https://img.icons8.com/color/48/000000/camera.png" width="24" height="24"> Training Evolution
 
 | ![Epoch 1](generated_faces/epoch_0001.png) | ![Epoch 50](generated_faces/epoch_0050.png) | ![Epoch 100](generated_faces/epoch_0100.png) | ![Epoch 200](generated_faces/epoch_0200.png) |
 |:---:|:---:|:---:|:---:|
@@ -334,7 +338,7 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 
 ---
 
-## FAQ
+## <img src="https://img.icons8.com/color/48/000000/question-mark.png" width="24" height="24"> FAQ
 
 ### How long does training take?
 - **Minimum viable**: 1-2 hours (50-100 epochs)
@@ -358,9 +362,7 @@ Press `Ctrl + C`. Training will save a checkpoint before stopping.
 ---
 
 <div align="center">
-⭐ If you like this project, give it a star! ⭐
-Made with ❤️ using PyTorch
-Report Bug · Request Feature
-</div>
+<img src="https://img.icons8.com/color/24/000000/star.png" width="20" height="20"> If you like this project, give it a star! <img src="https://img.icons8.com/color/24/000000/star.png" width="20" height="20"><br>
+Made with <img src="https://img.icons8.com/color/20/000000/love.png" width="16" height="16"> using PyTorch<br>
 <a href="https://github.com/siby369/human-faces-gan/issues">Report Bug</a> · <a href="https://github.com/siby369/human-faces-gan/issues">Request Feature</a>
 </div>
