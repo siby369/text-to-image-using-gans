@@ -1,4 +1,4 @@
-# ![GAN](https://img.shields.io/badge/GAN-Deep%20Convolutional%20GAN-blue) Human Faces GAN - Deep Convolutional GAN (DCGAN)
+# 🎭 Human Faces GAN - Deep Convolutional GAN (DCGAN)
 
 Generate realistic human faces using Deep Convolutional Generative Adversarial Networks trained on the CelebA dataset.  
 This project is implemented in **PyTorch** and demonstrates state-of-the-art face synthesis using deep learning.
@@ -10,7 +10,7 @@ This project is implemented in **PyTorch** and demonstrates state-of-the-art fac
 
 ---
 
-## ![Features](https://img.shields.io/badge/Features-Core%20Capabilities-orange) Features
+## 🌟 Features
 
 - ✅ **AI Face Generation** – Create realistic human faces from random noise vectors
 - ✅ **Smart Checkpointing** – Auto-saves progress every 5 minutes
@@ -23,7 +23,7 @@ This project is implemented in **PyTorch** and demonstrates state-of-the-art fac
 
 ---
 
-## ![Results](https://img.shields.io/badge/Results-Sample%20Outputs-green) Sample Results
+## 🖼️ Sample Results
 
 <table>
   <tr>
@@ -44,7 +44,7 @@ This project is implemented in **PyTorch** and demonstrates state-of-the-art fac
 
 ---
 
-## ![Requirements](https://img.shields.io/badge/Requirements-Hardware%20%26%20Software-red) Requirements
+## 📋 Requirements
 
 ### Hardware
 - **GPU**: NVIDIA GTX 1650 or better (4GB+ VRAM)
@@ -58,7 +58,7 @@ This project is implemented in **PyTorch** and demonstrates state-of-the-art fac
 
 ---
 
-## ![Quick Start](https://img.shields.io/badge/Quick%20Start-Get%20Started-brightgreen) Quick Start
+## 🚀 Quick Start
 
 ### 1. Clone the Repository
 ```bash
