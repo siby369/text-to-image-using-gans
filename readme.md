@@ -150,7 +150,7 @@ Outputs saved to: `generated_faces/generated_output.png`
 **Example output:**
 ```
 ⏱️  15.3min | Epoch 45 | L_g: 2.456 | L_d: 0.823 | R: 0.754 | F: 0.234
-💾 Checkpoint saved: checkpoints/checkpoint_latest.pth
+💾  Checkpoint saved: checkpoints/checkpoint_latest.pth
 🖼️  Saved samples: generated_faces/epoch_0045.png
 ```
 
