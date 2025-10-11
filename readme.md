@@ -25,8 +25,8 @@ This project is implemented in **PyTorch** and demonstrates state-of-the-art fac
   <tr>
     <td><img src="generated_faces/epoch_0001.png" width="200"/></td>
     <td><img src="generated_faces/epoch_0050.png" width="200"/></td>
-    <td><img src="generated_faces/epoch_0100.png" width="200"/></td>
-    <td><img src="generated_faces/epoch_0200.png" width="200"/></td>
+    soon
+    soon
   </tr>
   <tr>
     <td align="center">Epoch 1</td>
@@ -358,7 +358,9 @@ Press `Ctrl + C`. Training will save a checkpoint before stopping.
 ---
 
 <div align="center">
-If you like this project, give it a star!<br>
-Made with PyTorch<br>
+⭐ If you like this project, give it a star! ⭐
+Made with ❤️ using PyTorch
+Report Bug · Request Feature
+</div>
 <a href="https://github.com/siby369/human-faces-gan/issues">Report Bug</a> · <a href="https://github.com/siby369/human-faces-gan/issues">Request Feature</a>
 </div>
