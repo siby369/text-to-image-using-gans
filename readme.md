@@ -29,7 +29,7 @@ This project is implemented in **PyTorch** and demonstrates state-of-the-art fac
   <tr>
     <td><img src="generated_faces/epoch_0001.png" width="200"/></td>
     <td><img src="generated_faces/epoch_0050.png" width="200"/></td>
-    <td align="center">Soon</td>
+    <<td><img src="generated_faces/epoch_0100.png" width="200"/></td>
     <td align="center">Soon</td>
   </tr>
   <tr>
